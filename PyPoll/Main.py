@@ -8,10 +8,9 @@ correy_votes = 0
 li_votes = 0
 otooley_votes = 0
 other_votes = 0
-# used to provide the winner in the outpur
+# used to provide the winner in the output. For learning, I wanted to incorporate a list or two
 candidates = ["Khan","Correy","Li","O'Tooley"]
 cand_votes = []
-
 
 # Path to collect data from the Resources folder
 
@@ -63,7 +62,7 @@ print(f"Khan: {khan_pct}% ({khan_votes})")
 print(f"Correy: {correy_pct}% ({correy_votes})")
 print(f"Li: {li_pct}% ({li_votes})")
 print(f"O'Tooley: {otooley_pct}% ({otooley_votes})")
-# not needed in output - ran to verify that all votes fell within the 4 candidates
+# next line not needed in output - ran to verify that all votes fell within the 4 candidates
 # print(f"Other: {round(other_votes/tot_votes*100,3)}% ({other_votes})")
 print("--------------------------")
 print(f"Winner: {candidates[max_index]}")
