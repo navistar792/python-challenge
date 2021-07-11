@@ -73,7 +73,7 @@ print_results()
 
 # results output to a file
 # Specify the file to write to
-output_path = os.path.join("Resources", "pypoll.csv")
+output_path = os.path.join("analysis", "pypoll.csv")
 
 # Open the file using "write" mode. Specify the variable to hold the contents
 with open(output_path, 'w', newline='') as csvfile:

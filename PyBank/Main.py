@@ -54,7 +54,7 @@ def print_results():
 print_results()
 
 # Specify the file to write to
-output_path = os.path.join("Resources", "pybank.csv")
+output_path = os.path.join("analysis", "pybank.csv")
 
 # Open the file using "write" mode. Specify the variable to hold the contents
 with open(output_path, 'w', newline='') as csvfile:
