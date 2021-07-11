@@ -12,6 +12,7 @@
 2. Declare key variables to sum the profit and count the months as the code iterates through the data. Initial value is set to zero
 
 3. Connect to the budget_data.csv using the os.path.join() method, and open it. The first path argument is omitted, since the csv file is in a subfolder (\Resources) of the same directory as Main.py.
+ 
 ![Image#2](https://github.com/navistar792/python-challenge/blob/main/PyBank/Resources/connection.jpg)
 
 4. Iterate through the data. For each row:
@@ -20,16 +21,16 @@
     * Calculate the max profit by determining if the current profit value is greater than the last value, and if so, storing it in the designated variable
     * Calculate the min profit by determining if the current profit is lower than the prior value, and if so, storing it in the designated variable 
     * Update the prior month's profit with the current month, to be used in the next iteration 
-        ![Image #3](PyBank\Resources\iterate.jpg)
+        ![Image #3](https://github.com/navistar792/python-challenge/blob/main/PyBank/Resources/iterate.jpg)
 
 5. Print the results to the terminal. Define a function for this step, for purposes of learning  
-    ![Image #4](PyBank\Resources\results.jpg)
+    ![Image #4](https://github.com/navistar792/python-challenge/blob/main/PyBank/Resources/results.jpg)
 
 6.  Export the results to a csv file. Three columns were included
     * First column describes the metric (e.g. "average change")
     * The second column lists the month, if relevant
     * The third column lists totals
-![Image #5](PyBank\Resources\output.jpg)   
+![Image #5](https://github.com/navistar792/python-challenge/blob/main/PyBank/Resources/output.jpg)   
 
 ## PyPoll Overview    
 
@@ -47,14 +48,14 @@
     a. For each iteration, add one vote to the total votes (tot_votes)
     b. the candidates' names are in the third column. Use if statements to count the votes for each candidate, adding a vote if their name matches.
     c. use an else statement to tally any votes that don't match the four candidates (hint: there weren't any "other" votes in this dataset)
-    ![Image #1](PyPoll\Resources\iteration.jpg)
+    ![Image #1](https://github.com/navistar792/python-challenge/blob/main/PyPoll/Resources/iteration.jpg)
 
 6. Append the total votes for each candidate to the candidate votes <b>(cand_votes)</b> list.
 
 7. To make the print results code easier to read: 
     a. calculate all the percentages needed for the output
     b. calculate the candidate with the max number of votes
-    ![Image #6](PyPoll\Resources\calculations.jpg)
+    ![Image #6](https://github.com/navistar792/python-challenge/blob/main/PyPoll/Resources/calculations.jpg)
 
 8. create a function that, when called, prints the results to the terminal. From a design perspective, no calculations were done within the print statements - everything was pre-calculated using variables: 
 
