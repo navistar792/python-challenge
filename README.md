@@ -12,7 +12,7 @@
 2. Declare key variables to sum the profit and count the months as the code iterates through the data. Initial value is set to zero
 
 3. Connect to the budget_data.csv using the os.path.join() method, and open it. The first path argument is omitted, since the csv file is in a subfolder (\Resources) of the same directory as Main.py.
-![Image#2](PyBank\Resources\connection.jpg)
+![Image#2](https://github.com/navistar792/python-challenge/blob/main/PyBank/Resources/connection.jpg)
 
 4. Iterate through the data. For each row:
     * Add the profit to the total
